@@ -2,6 +2,16 @@ public class SegiEmpat {
     double panjang;
     double lebar;
 
+    SegiEmpat(){
+        panjang = 0;
+        lebar = 0;
+    }
+
+    SegiEmpat(double p, double l){
+        panjang = p;
+        lebar = l;
+    }
+
     void tentukanPanjang(double p){
         panjang = p;
     }

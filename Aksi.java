@@ -1,5 +1,6 @@
 public class Aksi{
     public static void main(String[] args){
+        //Class object = new Constructor
         Mobil mobil = new Mobil();
 
         mobil.warna = "Merah";
@@ -14,7 +15,7 @@ public class Aksi{
         System.out.println(mobilPutih.warna);
         System.out.println(mobilPutih.tahunProduksi);
 
-
+        // Class object = new Constructor
         Creep c1 = new Creep();
         Creep c2 = new Creep();
         Creep c3 = new Creep();
